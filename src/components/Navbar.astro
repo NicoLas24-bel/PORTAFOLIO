@@ -1,12 +1,18 @@
-<nav class="flex justify-between p-6 bg-gray-900">
-    <h1 class="font-bold text-cyan-400">
-        Nicolás
-    </h1>
+<nav class="fixed w-full z-50 top-0 transition-all duration-300 backdrop-blur-md bg-slate-950/70 border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <a href="#" class="text-2xl font-heading font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent hover:opacity-80 transition-opacity">
+            Nico.
+        </a>
 
-    <ul class="flex gap-6">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Sobre mí</a></li>
-        <li><a href="#">Proyectos</a></li>
-        <li><a href="#">Contacto</a></li>
-    </ul>
+        <ul class="hidden md:flex gap-8 text-sm font-medium">
+            <li><a href="#" class="text-slate-300 hover:text-cyan-400 transition-colors">Inicio</a></li>
+            <li><a href="#servicios" class="text-slate-300 hover:text-cyan-400 transition-colors">Servicios</a></li>
+            <li><a href="#proyectos" class="text-slate-300 hover:text-cyan-400 transition-colors">Proyectos</a></li>
+            <li><a href="#contacto" class="text-slate-300 hover:text-cyan-400 transition-colors">Contacto</a></li>
+        </ul>
+        
+        <a href="#contacto" class="hidden md:block px-5 py-2.5 text-sm font-medium rounded-full bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 hover:bg-cyan-500 hover:text-slate-950 transition-all duration-300">
+            Hablemos
+        </a>
+    </div>
 </nav>
